@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MFK Fitness</title>
+</head>
+<link
+    href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&family=Baloo+Bhaijaan+2&family=Roboto:wght@100&display=swap"
+    rel="stylesheet">
+
+<style>
+    /* CSS Reset */
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px;
+        padding: 0px;
+        background-image: url('img/img.gym2.jpg');
+
+    }
+
+    .left {
+        /* border: 2px solid green; */
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 29px auto;
+        font-size: 18px;
+        /* border: 2px solid blueviolet; */
+
+    }
+
+    .right {
+        position: absolute;
+        top: 35px;
+        right: 3px;
+        /* border: 2px solid brown; */
+        display: inline-block;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: black;
+        text-decoration: none;
+        padding: 5px;
+
+    }
+
+    .navbar li {
+
+        display: inline-block;
+    }
+
+    .navbar a:hover,
+    .navbar a:active {
+        text-decoration: underline;
+        color: blue;
+    }
+
+    .left img {
+        width: 136px;
+    }
+
+    .left div {
+        text-align: center;
+        font-size:20px ;
+        line-height:19px ;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        background-color: black;
+        color: white;
+        margin: 0px 5px;
+         padding: 4px 10px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+
+    .btn:hover {
+        color: rgb(99, 58, 58);
+    }
+    .container{
+        /* border: 2px solid red; */
+        margin: 106px;
+        margin-top: 150px;
+        border-radius: 20px;
+        padding: 75px;
+        width: 33%;
+        background-color: black;margin: auto;
+
+    }
+    .formgroup input{
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 450px;
+        padding: 05px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 20px;
+        border-radius: 8px;
+    }
+    .container h1{
+        text-align: center;
+        font-size: 25px;
+        color: white;
+    }
+    .container button{
+        display: block;
+        margin: auto;
+        width: 50%;
+        padding:10px;
+    }
+    #h1{
+        color: white;
+    }
+    h3{
+        position: absolute;
+        margin: 22px;
+        padding: 30px;
+        display: inline-block; 
+    right: 5px;
+    top: 620px;
+font-family: sans-serif;
+        
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="img/img.logo.png" alt="">
+            <div>MFK Fitness</div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Fitness calculator</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+
+        </div>
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn" id="btn1">Call us Now</button>
+            <button class="btn" id="btn2">Email Now</button>
+
+
+        </div>
+    </header>
+    <div class="container">
+        <h1 id="h1">Join the best gym of Tumkur now</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    <h3>By:<a href="">ashiyakhanum19@gmail.com</a></h3>
+</body>
+
+</html>
